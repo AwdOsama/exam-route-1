@@ -29,8 +29,12 @@
   --hover-btn-blue: #432dd7;
   --btn-bg: linear-gradient(90deg, #7d20f4 0%, #8e22f8 45%, #a20bff 100%);
 }
+@font-face {
+  font-family:"exo" ;
+  src: url(../fonts/Exo-VariableFont_wght.ttf);
+}
 body {
-  font-family: sans-serif;
+  font-family:"exo" ,sans-serif;
 }
 body::selection {
   background-color: #a684ff;
