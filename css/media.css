@@ -158,6 +158,9 @@
     min-height: 600px !important;
     padding-bottom: 0px !important;
   }
+  .cursl-footer {
+    margin-top: 90px;
+  }
   .tittel p {
     font-size: 18px !important;
   }
