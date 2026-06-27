@@ -13,30 +13,11 @@
     --text-gray: #99a1af;
     --transition: all 0.3s ease-in-out;
   }
-  .contact-cricle1,
-  .inner-cricle2,
-  .inner-cricle1,
-  .contact-cricle2 {
-    display: none;
-  }
-
-  .tittel p {
-    font-size: 18px !important;
-  }
-  .according {
-    width: 100%;
-  }
-  .contact-cricle1,
-  .inner-cricle2,
-  .inner-cricle1,
-  .contact-cricle2 {
-    display: none;
-  }
 
   .container-fluid {
     width: 90% !important;
   }
-   nav .container-fluid {
+  nav .container-fluid {
     width: 100% !important;
   }
 
@@ -50,7 +31,7 @@
   .nav-link.nav-link-custom:hover,
   .nav-link.nav-link-custom.active:hover {
     background-color: var(--purpul-bg-color) !important;
-    color:  var(--purpul-color) !important;
+    color: var(--purpul-color) !important;
   }
   .footer-hero {
     width: 100% !important;
@@ -145,6 +126,25 @@
     padding: 15px;
     width: 100%;
     border-radius: 15px;
+  }
+  .contact-cricle1,
+  .inner-cricle2,
+  .inner-cricle1,
+  .contact-cricle2 {
+    display: none;
+  }
+
+  .tittel p {
+    font-size: 18px !important;
+  }
+  .according {
+    width: 100%;
+  }
+  .contact-cricle1,
+  .inner-cricle2,
+  .inner-cricle1,
+  .contact-cricle2 {
+    display: none;
   }
 }
 
