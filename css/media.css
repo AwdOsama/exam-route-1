@@ -1,0 +1,145 @@
+@media (max-width: 991px) {
+  :root {
+    --purpul-color: #7f22fe;
+    --grean-color: #008235;
+    --orange-color: #d08700;
+    --blue-color: #4f39f6;
+    --pink-color: #9810fa;
+    --purpul-bg-color: #ede9fe;
+    --grean-bg-color: #dbfce7;
+    --orange-bg-color: #fef9c2;
+    --blue-bg-color: #e0e7ff;
+    --pink-bg-color: #f3e8ff;
+    --text-gray: #99a1af;
+    --transition: all 0.3s ease-in-out;
+  }
+  .container-fluid {
+    width: 90% !important;
+    padding: 0 !important;
+  }
+
+  .nav-link.nav-link-custom,
+  .nav-link.nav-link-custom.active {
+    transition: var(--transition);
+  }
+  .nav-link.nav-link-custom::before {
+    display: none;
+  }
+  .nav-link.nav-link-custom:hover,
+  .nav-link.nav-link-custom.active:hover {
+    background-color: var(--purpul-bg-color) !important;
+  }
+  .drop-menu {
+    width: 100% !important;
+    left: 0 !important;
+    right: 0 !important;
+    transform: none !important;
+    top: 100%;
+    padding: 0px !important;
+    height: 300px;
+    border-radius: 16px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+  }
+
+  .drop-menu h3 {
+    font-size: 1.15rem !important;
+    margin-bottom: 15px !important;
+  }
+
+  .Featured {
+    background-color: #f9fafb;
+    padding: 15px;
+    width: 100%;
+    border-radius: 15px;
+  }
+
+  .property-item {
+    padding: 12px;
+    border-radius: 12px;
+    background-color: #fff;
+    width: 100%;
+    transition: var(--transition);
+  }
+
+  .property-item:hover {
+    background-color: #f5f3ff !important;
+  }
+
+  .property-item img {
+    width: 60px !important;
+    height: 60px !important;
+  }
+
+  .property-item h4 {
+    font-size: 12px !important;
+  }
+
+  .property-item .pra {
+    font-size: 12px !important;
+  }
+  .Property-type {
+    background-color: #f9fafb;
+    padding: 15px;
+    width: 100%;
+    border-radius: 15px;
+  }
+
+  .popular-locations {
+    background-color: #f9fafb;
+    padding: 15px;
+    width: 100%;
+    border-radius: 15px;
+  }
+
+  .location-overlay span,
+  p {
+    font-size: 12px !important;
+  }
+
+  .resource-card::before {
+    content: "";
+    position: absolute;
+    top: -65px;
+    right: -65px;
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    z-index: 0;
+  }
+  .resourse-card-icon {
+    width: 30px;
+    height: 30px;
+    font-size: 0.8rem;
+  }
+  .resource-card h4 {
+    font-size: 14px !important;
+  }
+  .resource-card p {
+    font-size: 12px !important;
+  }
+
+  .learn-more {
+    display: none;
+  }
+  .resources {
+    background-color: #f9fafb;
+    padding: 15px;
+    width: 100%;
+    border-radius: 15px;
+  }
+  .cursl {
+    min-height: 450px; 
+  
+}
+.tittel p{
+  font-size: 18px !important;
+}
+.according {
+  width: 100%;
+}
+.contact-cricle1,.inner-cricle2,.inner-cricle1,.contact-cricle2 {
+display: none;
+}
+ 
+}
