@@ -682,7 +682,7 @@ body::selection {
 .inner-cricle2 {
   position: absolute;
   bottom: 110px;
-  left:100px ;
+  left: 100px;
   width: 100px;
   height: 100px;
   border: 5px solid #e9d4ff;
@@ -775,42 +775,68 @@ body::selection {
 .contact-form {
   padding: 40px;
 }
-.contact-form input,.contact-form select,.contact-form textarea {
+.contact-form input,
+.contact-form select,
+.contact-form textarea {
   padding: 12px 16px;
   border-radius: 10px;
   outline: none !important;
   background-color: #f9fafb;
 }
 
-.contact-form input:focus,.contact-form select:focus,.contact-form textarea:focus {
+.contact-form input:focus,
+.contact-form select:focus,
+.contact-form textarea:focus {
   border-color: var(--purpul-color) !important;
   box-shadow:
     0 0 0 2px #fff,
     0 0 0 3px var(--purpul-color) !important;
 }
-.contact-form textarea{
+.contact-form textarea {
   resize: none;
 }
-.cheak-box{
+.cheak-box {
   padding: 16px;
   margin-bottom: 24px;
 }
 .cheak-box-input {
-width: 20px;
-height: 20px;
+  width: 20px;
+  height: 20px;
   accent-color: var(--purpul-color);
-
-
 }
 .cheak-box-input:focus {
-box-shadow: none !important;
-border: none !important;
+  box-shadow: none !important;
+  border: none !important;
 }
-.contact-form-btn{
+.contact-form-btn {
   background: var(--btn-bg);
   padding: 16px 32px;
   transition: var(--transition);
 }
-.contact-form-btn:hover{
-transform: translateY(-5px);
+.contact-form-btn:hover {
+  transform: translateY(-5px);
+}
+
+/* footer-section*/
+
+.footer {
+  padding-block: 48px;
+  background: linear-gradient(90deg, #4f1796 0%, #541793 50%, #59168c 100%);
+}
+.social-icon {
+  width: 40px;
+  height: 40px;
+  text-decoration: none;
+  background-color: #682d98;
+  transition: var(--transition);
+}
+.social-icon:hover {
+background-color: #7F22FE;
+transform: scale(1.1);
+}
+.heart {
+  color: #ff6467;
+}
+.footer-header{
+  border-bottom: 1px solid #643d94;
 }
