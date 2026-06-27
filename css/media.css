@@ -32,9 +32,6 @@
   .contact-cricle2 {
     display: none;
   }
-  .cursl {
-    min-height: 450px !important;
-  }
 
   .container-fluid {
     width: 90% !important;
@@ -52,12 +49,12 @@
   .nav-link.nav-link-custom.active:hover {
     background-color: var(--purpul-bg-color) !important;
   }
-  .footer-hero{
+  .footer-hero {
     width: 100% !important;
   }
-.hero-form{
-  width: 100% !important;
-}  
+  .hero-form {
+    width: 100% !important;
+  }
   .drop-menu {
     width: 100% !important;
     left: 0 !important;
@@ -149,6 +146,12 @@
 }
 
 @media (max-width: 786px) {
+  .container {
+    width: 95% !important;
+  }
+  .testimonials .container {
+    width: 100% !important;
+  }
   .resource-card::before {
     content: "";
     position: absolute;

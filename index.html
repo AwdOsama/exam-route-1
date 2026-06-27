@@ -338,9 +338,7 @@
               >
             </li>
             <li class="nav-item">
-              <a
-                class="nav-link nav-link-custom fs-6 fw-medium"
-                href="#contact"
+              <a class="nav-link nav-link-custom fs-6 fw-medium" href="#contact"
                 >Contact</a
               >
             </li>
@@ -350,18 +348,20 @@
     </nav>
     <main>
       <section id="home" class="hero">
-        <div class="container ">
+        <div class="container">
           <div
             class="hero-tittel d-flex justify-content-start align-items-center flex-column gap-3 mb-3"
           >
-            <h1 class="text-white display-4 fw-bold text-center">Find Your Dream Home</h1>
+            <h1 class="text-white display-4 fw-bold text-center">
+              Find Your Dream Home
+            </h1>
             <p class="text-center fs-5 text-white">
               Discover exceptional properties in prime locations. From modern
               condos to <br />
               luxury estates, we help you find the perfect place to call home.
             </p>
           </div>
-          <div class="hero-form p-4 bg-white  m-auto rounded-3 mb-5 w-75">
+          <div class="hero-form p-4 bg-white m-auto rounded-3 mb-5 w-75">
             <form>
               <div class="row mb-3">
                 <div class="col-lg-6 col-12">
@@ -392,6 +392,7 @@
                     <select
                       class="property-select w-100 rounded-3 mb-2"
                       id="property-type"
+                      name="Property-Type"
                     >
                       <option value="all">All Types</option>
                       <option value="house">House</option>
@@ -412,6 +413,7 @@
                     <select
                       class="price-select w-100 rounded-3 mb-2"
                       id="price-select"
+                      name="Price-Range"
                     >
                       <option value="any">Any Price</option>
                       <option value="0-500k">$0 - $500K</option>
@@ -433,6 +435,7 @@
                     <select
                       class="bedrooms-select w-100 rounded-3 mb-2"
                       id="bedrooms-select"
+                      name="bedrooms"
                     >
                       <option value="any">Any</option>
                       <option value="+1">+1</option>
@@ -453,6 +456,7 @@
                     <select
                       class="Bathrooms-select w-100 rounded-3 mb-2"
                       id="Bathrooms-select"
+                      name="bathrooms"
                     >
                       <option value="any">Any</option>
                       <option value="+1">+1</option>
@@ -493,15 +497,16 @@
                   </div>
                 </div>
               </div>
+              <div class="search-btn w-100 rounded-3">
+                <button
+                  class="btn-search-hero w-100 rounded-3 d-flex gap-2 justify-content-center align-items-center text-white"
+                  type="submit"
+                >
+                  <i class="fa-solid fa-magnifying-glass"></i>
+                  Search Properties
+                </button>
+              </div>
             </form>
-            <div class="search-btn w-100 rounded-3">
-              <button
-                class="btn-search-hero w-100 rounded-3 d-flex gap-2 justify-content-center align-items-center text-white"
-              >
-                <i class="fa-solid fa-magnifying-glass"></i>
-                Search Properties
-              </button>
-            </div>
           </div>
           <div class="row text-center text-white w-75 m-auto footer-hero">
             <div class="col-6 col-lg-3">
@@ -1353,7 +1358,7 @@
           </div>
           <div
             id="carouselExampleRide"
-            class="carousel slide  "
+            class="carousel slide"
             data-bs-ride="carousel"
             data-bs-interval="3000"
             data-bs-pause="false"
@@ -1387,11 +1392,11 @@
                 aria-label="Slide 4"
               ></button>
             </div>
-            <div class="carousel-inner m-auto  ">
+            <div class="carousel-inner m-auto">
               <div class="carousel-item active">
-                <div class="m-auto bg-white shadow rounded-3 cursl">
+                <div class="m-auto bg-white shadow rounded-3 cursl height1">
                   <div
-                    class="cursl-header d-flex align-items-center justify-content-start gap-2 mb-4"
+                    class="cursl-header d-flex align-items-center justify-content-start gap-2 mb-1"
                   >
                     <div class="star-icons fs-5">
                       <i
@@ -1427,7 +1432,7 @@
                     $100,000 on our purchase. We couldn't be happier!"
                   </p>
                   <div
-                    class="cursl-footer  d-flex align-items-center justify-content-center gap-3 flex-column text-center flex-md-row align-items-md-center justify-content-md-start"
+                    class="cursl-footer d-flex align-items-center justify-content-center gap-3 flex-column text-center flex-md-row align-items-md-center justify-content-md-start"
                   >
                     <div class="cursul-footer-img">
                       <img
@@ -1454,9 +1459,9 @@
                 </div>
               </div>
               <div class="carousel-item">
-                <div class="m-auto bg-white shadow rounded-3 cursl">
+                <div class="m-auto bg-white shadow rounded-3 cursl height2">
                   <div
-                    class="cursl-header d-flex align-items-center justify-content-start gap-2 mb-4"
+                    class="cursl-header d-flex align-items-center justify-content-start gap-2 mb-1"
                   >
                     <div class="star-icons fs-5">
                       <i
@@ -1517,9 +1522,9 @@
                 </div>
               </div>
               <div class="carousel-item">
-                <div class="m-auto bg-white shadow rounded-3 cursl">
+                <div class="m-auto bg-white shadow rounded-3 cursl height3">
                   <div
-                    class="cursl-header d-flex align-items-center justify-content-start gap-2 mb-4"
+                    class="cursl-header d-flex align-items-center justify-content-start gap-2 mb-1"
                   >
                     <div class="star-icons fs-5">
                       <i
@@ -1580,11 +1585,11 @@
                 </div>
               </div>
               <div class="carousel-item">
-                <div class="m-auto bg-white shadow rounded-3 cursl">
+                <div class="m-auto bg-white shadow rounded-3 cursl height4">
                   <div
-                    class="cursl-header d-flex align-items-center justify-content-start gap-2 mb-4"
+                    class="cursl-header d-flex align-items-center justify-content-start gap-2 mb-1"
                   >
-                    <div class="star-icons fs-5 ">
+                    <div class="star-icons fs-5">
                       <i
                         class="fa-solid fa-star"
                         style="color: rgb(255, 212, 59)"
@@ -1917,7 +1922,7 @@
               every step of the way
             </p>
           </div>
-          <div class="row">
+          <div class="row g-4">
             <div class="col-12 col-md-6 col-lg-3">
               <div class="contact-card-purpul p-4 border rounded-4 bg-white">
                 <div
@@ -1928,11 +1933,11 @@
 
                 <h5 class="fw-bold mb-2">Call Us</h5>
 
-                <p class="pra mb-3">Mon-Fri from 8am to 5pm</p>
+                <p class="pra3 mb-3">Mon-Fri from 8am to 5pm</p>
 
                 <a
                   href="tel:+15551234567"
-                  class="fw-semibold fs-6 text-decoration-none purpul-text"
+                  class="fw-semibold fs-6 text-decoration-none purpul-text phone-link"
                 >
                   +1 (555) 123-4567
                 </a>
@@ -1948,14 +1953,320 @@
 
                 <h5 class="fw-bold mb-2">Email Us</h5>
 
-                <p class="pra mb-3">We'll respond within 24hrs</p>
+                <p class="pra3 mb-3">We'll respond within 24hrs</p>
 
                 <a
                   href="mailto:info@elitehomes.com"
-                  class="fw-semibold fs-6 text-decoration-none pink-text"
+                  class="fw-semibold fs-6 text-decoration-none pink-text email-link"
                 >
                   info@elitehomes.com
                 </a>
+              </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+              <div class="contact-card-gradi p-4 border rounded-4 bg-white">
+                <div
+                  class="contact-card-icon-gradi rounded-4 d-flex justify-content-center align-items-center mb-4"
+                >
+                  <i class="fa-solid fa-location-dot fs-4 text-white"></i>
+                </div>
+
+                <h5 class="fw-bold mb-2">Visit Usge</h5>
+
+                <p class="pra3 mb-3">Come say hello</p>
+
+                <a
+                  href=""
+                  class="fw-semibold fs-6 text-decoration-none location-link"
+                >
+                  Beverly Hills, CA
+                </a>
+              </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+              <div class="contact-card-blue p-4 border rounded-4 bg-white">
+                <div
+                  class="contact-card-icon rounded-4 d-flex justify-content-center align-items-center mb-4 blue-bage"
+                >
+                  <i class="fa-solid fa-comments fs-4 text-white"></i>
+                </div>
+
+                <h5 class="fw-bold mb-2">Live Chat</h5>
+
+                <p class="pra3 mb-3">Available 24/7</p>
+
+                <a
+                  href=""
+                  class="fw-semibold fs-6 text-decoration-none blue-text chat-link"
+                >
+                  Start chatting →
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="row g-5 right-info">
+            <div class="col-12 col-lg-4">
+              <div class="contact-info rounded-4 mb-4">
+                <h4 class="mb-4 text-black fw-bold fs-4">
+                  Contact Information
+                </h4>
+                <div class="contact-info-cards d-flex flex-column gap-4">
+                  <div class="contact-info-card d-flex gap-3 align-items-start">
+                    <div
+                      class="bg-white rounded-3 shadow-sm d-flex justify-content-center align-items-center"
+                      style="width: 50px; height: 50px"
+                    >
+                      <i class="fa-solid fa-location-dot purpul-text fs-5"></i>
+                    </div>
+                    <div class="contact-card-info-info">
+                      <h5 class="mb-1 fs-6 fw-semibold">Address</h5>
+                      <p class="mb-0 small pra3">1234 Luxury Boulevard</p>
+                      <p class="mb-0 small pra3">Beverly Hills, CA 90210</p>
+                    </div>
+                  </div>
+                  <div class="contact-info-card d-flex gap-3 align-items-start">
+                    <div
+                      class="bg-white rounded-3 shadow-sm d-flex justify-content-center align-items-center"
+                      style="width: 50px; height: 50px"
+                    >
+                      <i class="fa-solid fa-phone pink-text fs-4"></i>
+                    </div>
+                    <div class="contact-card-info-info">
+                      <h5 class="mb-1 fs-6 fw-semibold">Phone</h5>
+                      <a
+                        class="mb-0 small pra3 text-decoration-none d-block number-info"
+                        href="tel:+15551234567"
+                        >+1 (555) 123-456</a
+                      >
+                      <a
+                        class="mb-0 small pra3 text-decoration-none d-block number-info"
+                        href="tel:+1555987-6543"
+                        >+1 (555) 987-6543</a
+                      >
+                    </div>
+                  </div>
+                  <div class="contact-info-card d-flex gap-3 align-items-start">
+                    <div
+                      class="contact-info-card-icon bg-white rounded-3 shadow-sm d-flex justify-content-center align-items-center"
+                      style="width: 50px; height: 50px"
+                    >
+                      <i class="fa-solid fa-envelope fs-4"></i>
+                    </div>
+                    <div class="contact-card-info-info">
+                      <h5 class="mb-1 fs-6 fw-semibold">email</h5>
+                      <a
+                        class="mb-0 small pra3 text-decoration-none d-block email-info"
+                        href="mailto:info@elitehomes.com"
+                        >info@elitehomes.com</a
+                      >
+                      <a
+                        class="mb-0 small pra3 text-decoration-none d-block email-info"
+                        href="mailto:support@elitehomes.com"
+                        >support@elitehomes.com</a
+                      >
+                    </div>
+                  </div>
+                  <div class="contact-info-card d-flex gap-3 align-items-start">
+                    <div
+                      class="bg-white rounded-3 shadow-sm d-flex justify-content-center align-items-center"
+                      style="width: 50px; height: 50px"
+                    >
+                      <i class="fa-solid fa-clock blue-text fs-5"></i>
+                    </div>
+                    <div class="contact-card-info-info">
+                      <h5 class="mb-1 fs-6 fw-semibold">Working Hours</h5>
+                      <p class="mb-0 small pra3">Mon-Fri: 8:00 AM - 8:00 PM</p>
+                      <p class="mb-0 small pra3">Sat-Sun: 9:00 AM - 6:00 PM</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="contact-with-us rounded-4">
+                <h4 class="fw-bold fs-5 text-white mb-3">Connect With Us</h4>
+                <p class="pra1 small mb-4">
+                  Follow us on social media for updates and insights
+                </p>
+                <div
+                  class="contact-with-us-icons d-flex w-100 justify-content-between align-items-center"
+                >
+                  <div
+                    class="contact-with-us-icon d-flex justify-content-center align-items-center rounded-4"
+                    style="width: 50px; height: 50px"
+                  >
+                    <i class="fa-brands fa-facebook-f text-white"></i>
+                  </div>
+                  <div
+                    class="contact-with-us-icon d-flex justify-content-center align-items-center rounded-4"
+                    style="width: 50px; height: 50px"
+                  >
+                    <i class="fa-brands fa-twitter text-white"></i>
+                  </div>
+                  <div
+                    class="contact-with-us-icon d-flex justify-content-center align-items-center rounded-4"
+                    style="width: 50px; height: 50px"
+                  >
+                    <i class="fa-brands fa-instagram text-white"></i>
+                  </div>
+                  <div
+                    class="contact-with-us-icon d-flex justify-content-center align-items-center rounded-4"
+                    style="width: 50px; height: 50px"
+                  >
+                    <i class="fa-brands fa-linkedin-in text-white"></i>
+                  </div>
+                  <div
+                    class="contact-with-us-icon d-flex justify-content-center align-items-center rounded-4"
+                    style="width: 50px; height: 50px"
+                  >
+                    <i class="fa-brands fa-youtube text-white"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-lg-8">
+              <div class="contact-form border bg-white rounded-4">
+                <h3 class="fw-bold fs-2">Send us a message</h3>
+                <p class="pra3 mb-4">
+                  Fill out the form below and we'll get back to you as soon as
+                  possible
+                </p>
+                <form>
+                  <div class="row mb-3">
+                    <div class="col-12 col-md-6">
+                      <div class="first-name d-flex flex-column">
+                        <label class="small fw-semibold mb-2" for="fmame"
+                          >First Name <span class="text-danger">*</span>
+                        </label>
+                        <input
+                          class="fname border mb-sm-2"
+                          id="fname"
+                          type="text"
+                          name="first-name"
+                          required
+                          placeholder="Jhon"
+                        />
+                      </div>
+                    </div>
+                    <div class="col-12 col-md-6">
+                      <div class="last-name d-flex flex-column">
+                        <label class="small fw-semibold mb-2" for="lmame"
+                          >Last Name <span class="text-danger">*</span>
+                        </label>
+                        <input
+                          class="lname border mb-sm-2"
+                          id="lname"
+                          type="text"
+                          name="last-name"
+                          required
+                          placeholder="Doe"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row mb-3">
+                    <div class="col-12 col-md-6">
+                      <div class="email-address d-flex flex-column">
+                        <label class="small fw-semibold mb-2" for="email"
+                          >Email Address <span class="text-danger">*</span>
+                        </label>
+                        <input
+                          class="email border mb-sm-2"
+                          id="email"
+                          type="email"
+                          name="email"
+                          required
+                          placeholder="john@example.com"
+                        />
+                      </div>
+                    </div>
+                    <div class="col-12 col-md-6">
+                      <div class="phone-number d-flex flex-column">
+                        <label class="small fw-semibold mb-2" for="phone"
+                          >Phone Number</label
+                        >
+                        <input
+                          class="phone border mb-sm-2"
+                          id="phone"
+                          type="tel"
+                          name="phone"
+                          placeholder="+1 (555) 000-0000"
+                        />
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="service-interest d-flex flex-column mb-3">
+                    <label class="small fw-semibold mb-2" for="service"
+                      >I'm interested in</label
+                    >
+                    <select
+                      class="form-select border mb-sm-2"
+                      id="service"
+                      name="service"
+                    >
+                      <option value="" selected>Select a service</option>
+                      <option value="buying_home">Buying a home</option>
+                      <option value="selling_home">Selling a home</option>
+                      <option value="Renting_a_property">
+                        Renting a property
+                      </option>
+                      <option value="Investment_opportunities">
+                        Investment opportunities
+                      </option>
+                      <option value="Commercial_real_estate">
+                        Commercial real estate
+                      </option>
+                      <option value="Property_management">
+                        Property management
+                      </option>
+                      <option value="Market_consultation">
+                        Market consultation
+                      </option>
+                    </select>
+                  </div>
+
+                  <div class="message d-flex flex-column mb-3">
+                    <label class="small fw-semibold mb-2" for="message"
+                      >Your Message <span class="text-danger">*</span>
+                    </label>
+                    <textarea
+                      class="message border mb-md-2"
+                      id="message"
+                      name="message"
+                      rows="5"
+                      required
+                      placeholder="Tell us about your real estate needs..."
+                    ></textarea>
+                  </div>
+
+                  <div
+                    class="cheak-box d-flex align-items-center rounded-3 purpul-bg-bage gap-3 border-0"
+                  >
+                    <input
+                      class="cheak-box-input"
+                      id="marketingConsent"
+                      type="checkbox"
+                      name="marketing-consent"
+                    />
+                    <label
+                      class="form-check-label small mb-0"
+                      for="marketingConsent"
+                    >
+                      I agree to receive marketing communications and updates
+                      from EliteHomes
+                    </label>
+                  </div>
+                  <button
+                    class="w-100 d-flex gap-2 align-items-center contact-form-btn justify-content-center rounded-4 border-0 text-white fs-5 fw-bold"
+                    type="submit"
+                  >
+                    Send Message
+                    <i class="fa-solid fa-paper-plane fs-5 text-white"></i>
+                  </button>
+                  <p class="text-center mt-3" style="color: #6a7282;">
+                    We respect your privacy. Your information will never be
+                    shared.
+                  </p>
+                </form>
               </div>
             </div>
           </div>
