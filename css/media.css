@@ -52,6 +52,12 @@
   .nav-link.nav-link-custom.active:hover {
     background-color: var(--purpul-bg-color) !important;
   }
+  .footer-hero{
+    width: 100% !important;
+  }
+.hero-form{
+  width: 100% !important;
+}  
   .drop-menu {
     width: 100% !important;
     left: 0 !important;
@@ -153,16 +159,14 @@
     border-radius: 50%;
     z-index: 0;
   }
-
-  .cursl {
-    min-height: 600px !important;
-    padding-bottom: 0px !important;
-  }
   .cursl-footer {
     margin-top: 90px;
   }
   .tittel p {
     font-size: 18px !important;
+  }
+  .tittel h2 {
+    font-size: 30px !important;
   }
   .according {
     width: 100%;
