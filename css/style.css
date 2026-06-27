@@ -201,7 +201,7 @@ body::selection {
 .resource-card:hover .learn-more i {
   transform: translateX(3px);
 }
-/* hrro-section*/
+/* hero-section*/
 .hero {
   padding-top: 150px;
   padding-bottom: 30px;
@@ -804,10 +804,11 @@ body::selection {
   width: 20px;
   height: 20px;
   accent-color: var(--purpul-color);
+   border:none !important;
 }
 .cheak-box-input:focus {
-  box-shadow: none !important;
-  border: none !important;
+  box-shadow:none !important;
+  border:none !important;
 }
 .contact-form-btn {
   background: var(--btn-bg);
