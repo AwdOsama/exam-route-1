@@ -32,8 +32,8 @@ body::selection {
 
 /*navbar */
 
-.navbar-nav .nav-link {
-  color: #314158;
+.navbar-nav .nav-link.nav-link-custom {
+  color: #314158 !important;
   position: relative;
   font-weight: 500;
 }
