@@ -35,7 +35,9 @@
 
   .container-fluid {
     width: 90% !important;
-    padding: 0 !important;
+  }
+   nav .container-fluid {
+    width: 100% !important;
   }
 
   .nav-link.nav-link-custom,
@@ -48,6 +50,7 @@
   .nav-link.nav-link-custom:hover,
   .nav-link.nav-link-custom.active:hover {
     background-color: var(--purpul-bg-color) !important;
+    color:  var(--purpul-color) !important;
   }
   .footer-hero {
     width: 100% !important;

@@ -633,6 +633,7 @@ body::selection {
   box-shadow: none !important;
   border: none !important;
   transition: var(--text-gray);
+  color: black !important;
 }
 .accordion-button:not(.collapsed):hover {
   background-color: #f9fafb !important;
