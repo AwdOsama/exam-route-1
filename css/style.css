@@ -647,7 +647,7 @@ body::selection {
   height: 300px;
   background-color: #f6f4ff;
   border-radius: 50%;
-  z-index: 2;
+  z-index: -1;
 }
 .inner-cricle1 {
   position: absolute;
@@ -658,7 +658,7 @@ body::selection {
   border: 5px solid #ddd6ff;
   background: transparent;
   border-radius: 50%;
-  z-index: 5;
+  z-index: -1;
 }
 .contact-cricle2 {
   position: absolute;
@@ -666,9 +666,9 @@ body::selection {
   left: -120px;
   width: 300px;
   height: 300px;
-  background-color: #F9F4FF;
+  background-color: #f9f4ff;
   border-radius: 50%;
-  z-index: 2;
+  z-index: -1;
 }
 .inner-cricle2 {
   position: absolute;
@@ -679,5 +679,19 @@ body::selection {
   border: 5px solid #e9d4ff;
   background: transparent;
   border-radius: 50%;
-  z-index: 5;
+  z-index: -1;
+}
+.contact-card-icon {
+  width: 60px;
+  height: 60px;
+transition:  var(--transition);}
+.contact-card-purpul {
+transition:  var(--transition);}
+
+.contact-card-purpul:hover {
+  border-color: var(--purpul-color) !important;
+  transform: translateY(-10px);
+}
+.contact-card-purpul:hover .contact-card-icon {
+  transform: scale(1.1);
 }
