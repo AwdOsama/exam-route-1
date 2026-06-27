@@ -563,8 +563,9 @@ body::selection {
   background: linear-gradient(90deg, transparent, #ffa500);
 }
 .cursl {
-  width: 99%;
+  width: 97%;
   padding: 35px;
+  min-height: 400px;
 }
 .cursl-footer-info p {
   color: #6a7282;
